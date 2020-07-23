@@ -1,4 +1,4 @@
-{% set version = '0.2.0' %}
+{% set version = "0.3.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/riingo_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/riingo/riingo_{{ version }}.tar.gz
-  sha256: cc580f8827003fb5e98e10618cb6f047e6642123a01ef71b60e80a16954171b5
+  sha256: d70d34a4d682e38115db2e3039d5cabbac0b35fbb99e08a513a2b95574e288ab
 
 build:
   noarch: generic
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
 
   rpaths:
     - lib/R/lib/
@@ -56,11 +56,10 @@ test:
 about:
   home: https://github.com/business-science/riingo
   license: MIT
-  summary: Functionality to download stock prices, cryptocurrency data, and more from the 'Tiingo'
-    API <https://api.tiingo.com/>.
+  summary: Functionality to download stock prices, cryptocurrency data, and more from the 'Tiingo' API <https://api.tiingo.com/>.
   license_family: MIT
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
     - LICENSE
 
 extra:

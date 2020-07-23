@@ -5,7 +5,7 @@ Home: https://github.com/business-science/riingo
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Functionality to download stock prices, cryptocurrency data, and more from the 'Tiingo' API <https://api.tiingo.com/>.
 

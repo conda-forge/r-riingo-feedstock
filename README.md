@@ -1,11 +1,11 @@
-About r-riingo
-==============
+About r-riingo-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-riingo-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/business-science/riingo
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-riingo-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functionality to download stock prices, cryptocurrency data, and more from the 'Tiingo' API <https://api.tiingo.com/>.
 
